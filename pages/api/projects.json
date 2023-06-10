@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "arasTiR/AKR(AKT)",
-    "image": "https://imgur.com/a/IugmXew",
+    "image": "https://imgur.com/kbGs6zH.png",
     "description": "arasTiR; It is an advanced survey generator and answerer(You can answer the created surveys, quizzes etc.). It's made for local schools.",
     "tags": ["Java", "Javascript", "Firebase", "ASPT", "Android-Android Studio"],
     "source_code": "https://github.com/memoli0/arasTiR-AKR",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "arasTiR/AKR(AKT) for Telegram",
-    "image": "https://imgur.com/a/IugmXew",
+    "image": "https://imgur.com/tAZotn3.png",
     "description": "arasTiR/AKT's Telegram app for compatibility with all devices.",
     "tags": ["Java", "Maven", "Telegram-API", "Heroku"],
     "source_code": "https://github.com/memoli0/arastir-telegram-001"
@@ -19,7 +19,7 @@
   {
     "id": 3,
     "name": "ASPF-->ASPFT",
-    "image": "https://cdn1.iconfinder.com/data/icons/logos-and-brands-3/512/181_Java_logo_logos-512.png",
+    "image": "https://imgur.com/8FFqaX8.png",
     "description": "ASPFT; is a project that is the developed and translated version of https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo.",
     "tags": ["Java", "GSON"],
     "source_code": "https://github.com/memoli0/TinyDB--Android-Shared-Preferences-Turbo-Turkce"
@@ -27,7 +27,7 @@
   {
     "id": 4,
     "name": "arasTiR/Translate",
-    "image": "https://media.istockphoto.com/id/1281121906/vector/translate-icon-flat-illustration-japanese-alphabet-with-translate-icon-for-site-design.jpg?s=612x612&w=0&k=20&c=mYrCZHo4Q00_k6wOkTUwnERNWfYP-vMusyYgQ-1Sswg=",
+    "image": "https://imgur.com/mKkz0iz.png",
     "description": "A language translator website and extension from arasTiR.",
     "tags": ["Javascript", "CSS", "HTML"],
     "source_code": "https://github.com/memoli0/Translate",
