@@ -5,7 +5,7 @@ module.exports = {
       'avatars.githubusercontent.com',
       'imgur.com',
       'istockphoto.com'
-      'cdn1.iconfinder.com'
+      'iconfinder.com'
       'notion.so'
     ],
   },
