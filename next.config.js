@@ -6,7 +6,7 @@ module.exports = {
       'imgur.com',
       'istockphoto.com',
       'cdn1.iconfinder.com',
-      'notion.so'
+      'media.licdn.com'
     ],
   },
 };

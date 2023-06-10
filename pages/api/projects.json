@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "arasTiR/AKR(AKT)",
-    "image": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff81afc01-86d7-45b6-bb50-a2f5b5dbf018%2Fic_launcher_round.png?table=block&id=8519a5da-7efd-4966-86c1-63093512eeea&spaceId=ea387ea9-3579-4332-a42a-9f3a9d49a33f&width=250&userId=26bdcb55-1df1-4872-8cfb-0c628a2eb4b1&cache=v2",
+    "image": "https://media.licdn.com/dms/image/C4D16AQEuJNg2W8WQsw/profile-displaybackgroundimage-shrink_350_1400/0/1645979078499?e=1691625600&v=beta&t=mKBj3U4EvhVP6bnvh9y6ZpaPA3MvfMl38ve4v3V_mHw",
     "description": "arasTiR; It is an advanced survey generator and answerer(You can answer the created surveys, quizzes etc.). It's made for local schools.",
     "tags": ["Java", "Javascript", "Firebase", "ASPT", "Android-Android Studio"],
     "source_code": "https://github.com/memoli0/arasTiR-AKR",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "arasTiR/AKR(AKT) for Telegram",
-    "image": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff81afc01-86d7-45b6-bb50-a2f5b5dbf018%2Fic_launcher_round.png?table=block&id=8519a5da-7efd-4966-86c1-63093512eeea&spaceId=ea387ea9-3579-4332-a42a-9f3a9d49a33f&width=250&userId=26bdcb55-1df1-4872-8cfb-0c628a2eb4b1&cache=v2",
+    "image": "https://media.licdn.com/dms/image/C4D16AQEuJNg2W8WQsw/profile-displaybackgroundimage-shrink_350_1400/0/1645979078499?e=1691625600&v=beta&t=mKBj3U4EvhVP6bnvh9y6ZpaPA3MvfMl38ve4v3V_mHw",
     "description": "arasTiR/AKT's Telegram app for compatibility with all devices.",
     "tags": ["Java", "Maven", "Telegram-API", "Heroku"],
     "source_code": "https://github.com/memoli0/arastir-telegram-001"
