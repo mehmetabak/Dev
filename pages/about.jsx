@@ -3,7 +3,7 @@ const AboutPage = () => {
     <>
       <h2>As a Software Developer</h2>
       <h3>&nbsp;</h3>
-      <h3>👨‍💻 I know kotlin, java and python programming languages, </h3>
+      <h3>👨‍💻 I know Kotlin, Java and Python programming languages, </h3>
       <h3>👀 I’m interested in learning new things, </h3>
       <h3>🌱 I’m currently learning software development. </h3>
     </>
