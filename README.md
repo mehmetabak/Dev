@@ -1,5 +1,5 @@
 # vscode-portfolio
-[![Open is Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/itsnitinr/vscode-portfolio)
+[![Open is Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/memoli0/Dev)
 
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
 
@@ -14,6 +14,7 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
   - [x] Ayu
   - [x] Nord
 - [ ] Interactive custom terminal
+- [ ] New Buttons
 
 For other features and themes suggestions, please open an issue.
 
