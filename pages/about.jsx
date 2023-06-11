@@ -1,10 +1,10 @@
 const AboutPage = () => {
   return (
     <>
-      <h3>As a Software Developer</h3>
-      <h2>👨‍💻 I know kotlin, java and python programming languages , </h2>
-      <h2>👀 I’m interested in learning new things , </h2>
-      <h2>🌱 I’m currently learning software development , </h2>
+      <h2>As a Software Developer</h2>
+      <h3>👨‍💻 I know kotlin, java and python programming languages , </h3>
+      <h3>👀 I’m interested in learning new things , </h3>
+      <h3>🌱 I’m currently learning software development , </h3>
     </>
   );
 };
