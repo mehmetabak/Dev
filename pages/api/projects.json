@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "arasTiR/AKR(AKT)",
-    "image": "https://i.imgur.com/bzvR2AF.png",
+    "image": "https://i.imgur.com/Hl46nTs.png",
     "description": "arasTiR; It is an advanced survey generator and answerer(You can answer the created surveys, quizzes etc.). It's made for local schools.",
     "tags": ["Java", "Javascript", "Firebase", "ASPT", "Android-Android Studio"],
     "source_code": "https://github.com/memoli0/arasTiR-AKR",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "arasTiR/AKR(AKT) for Telegram",
-    "image": "https://i.imgur.com/bzvR2AF.png",
+    "image": "https://i.imgur.com/Hl46nTs.png",
     "description": "arasTiR/AKT's Telegram app for compatibility with all devices.",
     "tags": ["Java", "Maven", "Telegram-API", "Heroku"],
     "source_code": "https://github.com/memoli0/arastir-telegram-001"
