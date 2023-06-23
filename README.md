@@ -23,6 +23,7 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
   - [x] Nord
 - [ ] Interactive custom terminal
 - [ ] New button functions
+- [x] New addable website feature
 
 For other features and themes suggestions, please open an issue.
 
