@@ -42,6 +42,8 @@
   border-radius: 0 50% 50% 50%;
   object-fit: cover;
   border-color: black;
+  border-width: 10px;
+  border-style: solid;
 }
 
 .contributions article {
