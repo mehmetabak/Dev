@@ -39,11 +39,10 @@
 }
 
 .avatar {
-  border-radius: 0 50% 50% 50%;
   object-fit: cover;
-  border-color: black;
-  border-width: 10px;
-  border-style: solid;
+  border-radius: 50%;
+  border: 2px solid #cddc39;
+  filter: drop-shadow(0 0 8px #ff5722);
 }
 
 .contributions article {
