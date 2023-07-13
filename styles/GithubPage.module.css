@@ -39,9 +39,7 @@
 }
 
 .avatar {
-  border-radius:50%;
-  border: 12px;
-  border-color: #1c87c9;
+  border-radius: 0 50% 50% 50%;
 }
 
 .contributions article {
