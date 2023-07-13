@@ -12,6 +12,29 @@ const GithubPage = ({ repos, user }) => {
     level4: '#39d353',
   };
 
+  const labels = {
+    months: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ],
+    weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    totalCount: "{{count}} contributions in {{year}}",
+    legend: {
+      less: "Less",
+      more: "More",
+    },
+  };
+
   return (
     <>
       <div className={styles.user}>
@@ -43,6 +66,11 @@ const GithubPage = ({ repos, user }) => {
           theme={theme}
           hideColorLegend
           hideMonthLabels
+          labels={labels}
+          dateFormat={"dd/MM/yyyy"}
+          showWeekdayLabels
+          blockSize={16}
+          blockRadius={20}
         />
       </div>
     </>
