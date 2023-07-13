@@ -38,6 +38,10 @@
   margin-bottom: 1.5rem;
 }
 
+.avatar {
+  border-radius:50%;
+}
+
 .contributions article {
   width: 100% !important;
 }
