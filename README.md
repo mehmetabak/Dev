@@ -22,8 +22,9 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
   - [x] Ayu
   - [x] Nord
 - [ ] Interactive custom terminal
-- [ ] New web button functions
-- [x] New "website.png" page
+- [ ] New web control button functions
+- [ ] New animations and svg logos
+- [x] New "myWebsite.png" page
 
 For other features and themes suggestions, please open an issue.
 
