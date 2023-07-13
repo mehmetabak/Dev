@@ -48,6 +48,10 @@
 
 .contributions article {
   width: 100% !important;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 900px) {
