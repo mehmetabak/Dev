@@ -40,6 +40,9 @@
 
 .avatar {
   border-radius:50%;
+  border: 12px;
+  border-color: #1c87c9;
+  border-style: dashed;
 }
 
 .contributions article {
