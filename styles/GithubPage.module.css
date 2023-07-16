@@ -39,7 +39,7 @@
 }
 
 .avatar {
-  border-radius: 0 50% 50% 50%;
+  border-radius: 0 50% 50%;
   object-fit: cover;
   border-color: black;
   border-width: 2px;
