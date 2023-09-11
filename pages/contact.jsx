@@ -8,6 +8,7 @@ const ContactPage = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
+
   const submitForm = async (e) => {
     e.preventDefault();
     console.log(process.env.NEXT_PUBLIC_API_URL);
