@@ -22,7 +22,11 @@ const myWebsite = () => {
   return (
     <>
       <div className={styles['my-website-container']}>
-        <h3>My other website:</h3>
+        <div className={styles["mac-style-buttons"]}>
+          <button className={styles["minimize-button"]}></button>
+          <button className={styles["maximize-button"]}></button>
+          <button className={styles["close-button"]}></button>
+        </div>
         <iframe
           className={styles['webview-iframe']}
           src= {process.env.NEXT_PUBLIC_WEBSITE}
