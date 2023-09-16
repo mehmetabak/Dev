@@ -34,6 +34,7 @@
 
 .mac-style-buttons .minimize-button {
   background: #f1fa8c;
+  border-color: #f1fa8c;
   height: 13px;
   width: 13px;
   border-radius: 50%;
@@ -43,6 +44,7 @@
 
 .mac-style-buttons .maximize-button {
   background: #50fa7b;
+  border-color: #50fa7b;
   display: inline-block;
   height: 13px;
   width: 13px;
@@ -53,6 +55,7 @@
 
 .mac-style-buttons .close-button {
   background-color: #ff5555;
+  border-color: #ff5555;
   height: 13px;
   width: 13px;
   border-radius: 50%;
