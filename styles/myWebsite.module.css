@@ -22,7 +22,7 @@
 .mac-style-buttons {
   width: 100%;
   height: 10vh;
-  background-color: transparent;
+  background-color: black;
   justify-content: space-between;
 }
 
@@ -40,9 +40,7 @@
 }
 
 .mac-style-buttons .minimize-button {
-  content: "\u2190";
   background: #f1fa8c;
-  margin-left: auto;
   width: 11px;
   height: 11px;
   border: 1px solid #e33e41;
@@ -51,7 +49,6 @@
 }
 
 .mac-style-buttons .maximize-button {
-  content: "\u2193";
   color: #50fa7b;
   width: 11px;
   height: 11px;
@@ -61,7 +58,6 @@
 }
 
 .mac-style-buttons .close-button {
-  content: "\u2716";
   color: #ff5555;
   width: 11px;
   height: 11px;
