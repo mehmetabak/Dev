@@ -31,9 +31,18 @@
 }
 
 .mac-style-buttons button {
-  cursor: pointer;
+  flex: 1;
+  display: flex;
   align-items: center;
   margin-left: auto;
+}
+
+.mac-style-buttons button *{
+  margin-left: 0.5rem;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .mac-style-buttons button:hover {
@@ -42,26 +51,15 @@
 
 .mac-style-buttons .minimize-button {
   background: #f1fa8c;
-  width: 3vh;
-  height: 3vh;
-  border-radius: 50%;
-  display: inline-block;
 }
 
 .mac-style-buttons .maximize-button {
   color: #50fa7b;
-  width: 3vh;
-  height: 3vh;
-  border-radius: 50%;
   display: inline-block;
 }
 
 .mac-style-buttons .close-button {
   color: #ff5555;
-  width: 3vh;
-  height: 3vh;
-  border-radius: 50%;
-  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
