@@ -32,8 +32,6 @@
 
 .mac-style-buttons button {
   cursor: pointer;
-  flex: 1;
-  display: flex;
   align-items: center;
   margin-left: auto;
 }
