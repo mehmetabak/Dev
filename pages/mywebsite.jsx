@@ -23,9 +23,9 @@ const myWebsite = () => {
     <>
       <div className={styles['my-website-container']}>
         <div className={styles["mac-style-buttons"]}>
-          <button className={styles["mac-style-buttons .minimize-button"]}></button>
-          <button className={styles["mac-style-buttons .maximize-button"]}></button>
-          <button className={styles["mac-style-buttons .close-button"]}></button>
+          <button className={styles["minimize-button"]}></button>
+          <button className={styles["maximize-button"]}></button>
+          <button className={styles["close-button"]}></button>
         </div>
         <iframe
           className={styles['webview-iframe']}
