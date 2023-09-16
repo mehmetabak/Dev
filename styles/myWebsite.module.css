@@ -46,25 +46,22 @@
   background: #f1fa8c;
   width: 3vh;
   height: 3vh;
-  border: 1px solid #e33e41;
   border-radius: 50%;
   display: inline-block;
 }
 
 .mac-style-buttons .maximize-button {
   color: #50fa7b;
-  width: 11px;
-  height: 11px;
-  border: 1px solid #e33e41;
+  width: 3vh;
+  height: 3vh;
   border-radius: 50%;
   display: inline-block;
 }
 
 .mac-style-buttons .close-button {
   color: #ff5555;
-  width: 11px;
-  height: 11px;
-  border: 1px solid #e33e41;
+  width: 3vh;
+  height: 3vh;
   border-radius: 50%;
   display: inline-block;
 }
