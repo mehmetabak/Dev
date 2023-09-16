@@ -32,7 +32,7 @@
 
 .mac-style-buttons button {
   align-items: center;
-  margin-left: auto;
+  justify-content: right;
   right:0;
 }
 
