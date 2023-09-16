@@ -23,7 +23,7 @@
   width: 100%;
   height: 5vh;
   padding: 0 0.5rem;
-  background-color: rgb(37, 150, 190);
+  background: rgb(37, 150, 190);
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -33,7 +33,7 @@
 }
 
 .mac-style-buttons .minimize-button {
-  background-color: #f1fa8c;
+  background: #f1fa8c;
   height: 13px;
   width: 13px;
   border-radius: 50%;
@@ -42,7 +42,7 @@
 }
 
 .mac-style-buttons .maximize-button {
-  background-color: #50fa7b;
+  background: #50fa7b;
   display: inline-block;
   height: 13px;
   width: 13px;
