@@ -31,10 +31,9 @@
 }
 
 .mac-style-buttons button {
-  flex: 1;
-  display: flex;
   align-items: center;
   margin-left: auto;
+  right:0;
 }
 
 
