@@ -43,16 +43,31 @@
   content: "\u2190";
   background: #f1fa8c;
   margin-left: auto;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #e33e41;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .mac-style-buttons .maximize-button {
   content: "\u2193";
   color: #50fa7b;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #e33e41;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .mac-style-buttons .close-button {
   content: "\u2716";
   color: #ff5555;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #e33e41;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
