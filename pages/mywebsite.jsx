@@ -21,7 +21,8 @@ const myWebsite = () => {
 
   return (
     <>
-      <div className={styles['my-website-container']}>
+      <div className={styles['my-website-container']}
+        style={{ visibility: !isLoading ? "visible" : "hidden" }}>
         <div className={styles["mac-style-buttons"]}>
           <button className={styles["minimize-button"]}></button>
           <button className={styles["maximize-button"]}></button>
@@ -33,6 +34,8 @@ const myWebsite = () => {
           onLoad={handleLoad}
         ></iframe>
       </div>
+      <span className={styles["loader"]}
+        style={{ visibility: isLoading ? "visible" : "hidden" }}></span>
     </>
   );
 };

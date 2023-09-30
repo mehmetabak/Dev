@@ -9,7 +9,7 @@
   margin: 0 auto;
   padding: 2vh;
   border-radius: 2% 2% 2% 2%;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .webview-iframe {
@@ -73,6 +73,31 @@
 @media screen and (min-width: 1600px) {
   .webview-iframe {
     height: 75vh;
+  }
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  animation: roll 1s ease-in-out infinite alternate;
+}
+.loader:after{
+  content:"";
+  position: absolute;
+  inset: 5px;
+  border-radius: 50%;
+  border: 5px solid ;
+  border-color: #000000 transparent;
+}
+@keyframes roll {
+  0% {
+    transform: translateX(-150%) rotate(0deg) ;
+  }
+  100% {
+    transform:  translateX(150%) rotate(360deg);
   }
 }
 
