@@ -84,6 +84,7 @@
   position: relative;
   animation: roll 1s ease-in-out infinite alternate;
 }
+
 .loader:after{
   content:"";
   position: absolute;
@@ -92,6 +93,7 @@
   border: 5px solid ;
   border-color: #000000 transparent;
 }
+
 @keyframes roll {
   0% {
     transform: translateX(-150%) rotate(0deg) ;
