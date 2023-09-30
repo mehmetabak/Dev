@@ -36,8 +36,8 @@ const explorerItems = [
     icon: 'markdown_icon.svg',
   },
   {
-    name: 'myWebsite.png',
-    path: '/mywebsite',
+    name: 'blog.png',
+    path: '/blog',
     icon: 'png.svg',
   },
 ];

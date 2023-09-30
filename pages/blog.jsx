@@ -1,9 +1,9 @@
 import ProjectCard from '../components/ProjectCard';
 import { getProjects } from './api/projects';
-import styles from '../styles/myWebsite.module.css';
+import styles from '../styles/Blog.module.css';
 import React, { useState } from 'react';
 
-const myWebsite = () => {
+const BlogPage = () => {
 
   const [isLoading, setIsLoading] = useState(true);
 
@@ -40,4 +40,4 @@ const myWebsite = () => {
   );
 };
 
-export default myWebsite;
+export default BlogPage;
