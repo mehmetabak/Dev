@@ -21,6 +21,8 @@ const BlogPage = () => {
 
   return (
     <>
+      <span className={styles["loader"]}
+        style={{ visibility: isLoading ? "visible" : "hidden" }}></span>
       <div className={styles['my-website-container']}
         style={{ visibility: !isLoading ? "visible" : "hidden" }}>
         <div className={styles["mac-style-buttons"]}>
@@ -34,8 +36,6 @@ const BlogPage = () => {
           onLoad={handleLoad}
         ></iframe>
       </div>
-      <span className={styles["loader"]}
-        style={{ visibility: isLoading ? "visible" : "hidden" }}></span>
     </>
   );
 };
