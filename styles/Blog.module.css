@@ -1,10 +1,3 @@
-.container {
-  margin: 2vh;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2vh;
-}
-
 .my-website-container {
   margin: 0 auto;
   padding: 2vh;
