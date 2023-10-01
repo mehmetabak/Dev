@@ -24,7 +24,8 @@ const BlogPage = () => {
       <div className={styles['my-website-container']}>
         {isLoading ? (
           <>
-            <div className={styles['skeleton-container']}>
+            <div className={styles['skeleton-loading']}>
+              <div className={styles['skeleton-header']}></div>
               <div className={styles['skeleton-iframe']}></div>
             </div><iframe
               className={styles['webview-iframe']}
