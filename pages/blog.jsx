@@ -21,7 +21,7 @@ const BlogPage = () => {
 
   return (
     <>
-      <div className={styles['my-website-container']} style={{ visibility: !isLoading ? "visible" : "hidden" }}>
+      <div className={styles['my-website-container']}>
         {isLoading ? (
           <div className={styles['skeleton-container']}>
             <div className={styles['skeleton-iframe']}></div>
