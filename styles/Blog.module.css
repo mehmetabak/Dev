@@ -81,8 +81,9 @@
   height: 40px;
   background: #fff;
   border-radius: 50%;
-  position: absolute;
-  display: flex;
+  position: relative;
+  margin:auto;
+  display:table;
   overflow: hidden;
   align-items: center;
   animation: roll 1s ease-in-out infinite alternate;
