@@ -28,7 +28,7 @@ const BlogPage = () => {
               className={styles['webview-iframe']}
               src={process.env.NEXT_PUBLIC_WEBSITE}
               onLoad={handleLoad}
-              style={{display: "none"}}
+              style={{display: "none", height: "calc(70vh - 50px)"}}
             ></iframe>
           </>
           

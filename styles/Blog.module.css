@@ -22,8 +22,8 @@
   border-radius: 50%;
   animation: spin 1s linear infinite;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50%; 
+  left: 50%; 
   transform: translate(-50%, -50%);
 }
 
@@ -32,55 +32,44 @@
   height: 5vh;
   padding: 0 0.5rem;
   background: #111111;
-  justify-content: space-between;
   display: flex;
-  overflow: hidden;
   align-items: center;
-  justify-content: right;
-  right:0;
-  border-radius: 3vh 3vh 0% 0%;
+  justify-content: flex-end;
+  border-radius: 0 0 3vh 3vh;
+}
+
+.mac-style-buttons .button {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 0.5rem;
 }
 
 .mac-style-buttons .minimize-button {
   background: #f1fa8c;
   border-color: #f1fa8c;
-  height: 13px;
-  width: 13px;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 0.5rem;
 }
 
 .mac-style-buttons .maximize-button {
   background: #50fa7b;
   border-color: #50fa7b;
-  display: inline-block;
-  height: 13px;
-  width: 13px;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 0.5rem;
 }
 
 .mac-style-buttons .close-button {
   background-color: #ff5555;
   border-color: #ff5555;
-  height: 13px;
-  width: 13px;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
   .webview-iframe {
-    height: 65vh;
+    height: calc(65vh - 50px);
   }
 }
 
 @media screen and (min-width: 1600px) {
   .webview-iframe {
-    height: 75vh;
+    height: calc(75vh - 50px);
   }
 }
 
