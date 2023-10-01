@@ -21,7 +21,7 @@
   border-right: 4px solid #333;
   border-radius: 50%;
   position: relative;
-  padding: 2vh;
+  margin: 0 auto;
   animation: spin 1s linear infinite;
   top: 50%;
   left: 50%;
