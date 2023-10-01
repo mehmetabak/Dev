@@ -82,8 +82,7 @@
   background: #fff;
   border-radius: 50%;
   position: relative;
-  margin:auto;
-  display:table;
+  margin: auto;
   overflow: hidden;
   align-items: center;
   animation: roll 1s ease-in-out infinite alternate;
