@@ -20,6 +20,7 @@
   border-left: 4px solid #333;
   border-right: 4px solid #333;
   border-radius: 50%;
+  position: relative;
   animation: spin 1s linear infinite;
   top: 50%;
   left: 50%;
