@@ -23,9 +23,17 @@ const BlogPage = () => {
     <>
       <div className={styles['my-website-container']}>
         {isLoading ? (
-          <div className={styles['skeleton-container']}>
-            <div className={styles['skeleton-iframe']}></div>
-          </div>
+          <>
+            <div className={styles['skeleton-container']}>
+              <div className={styles['skeleton-iframe']}></div>
+            </div><iframe
+              className={styles['webview-iframe']}
+              src={process.env.NEXT_PUBLIC_WEBSITE}
+              onLoad={handleLoad}
+              style={{display: "none"}}
+            ></iframe>
+          </>
+          
         ) : (
           <>
             <div className={styles["mac-style-buttons"]}>
