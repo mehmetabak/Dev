@@ -85,7 +85,6 @@
   margin: auto;
   display: inline-block;
   overflow: hidden;
-  align-items: center;
   animation: roll 1s ease-in-out infinite alternate;
 }
 

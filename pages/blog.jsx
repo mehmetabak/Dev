@@ -21,8 +21,8 @@ const BlogPage = () => {
 
   return (
     <>
-      <span className={styles["loader"]}
-        style={{ visibility: isLoading ? "visible" : "hidden" }}></span>
+    <span className={styles["loader"]}
+        style={{ display: isLoading ? "inline-block" : "none" }}></span>
       <div className={styles['my-website-container']}
         style={{ visibility: !isLoading ? "visible" : "hidden" }}>
         <div className={styles["mac-style-buttons"]}>
