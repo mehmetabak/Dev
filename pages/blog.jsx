@@ -24,10 +24,7 @@ const BlogPage = () => {
       <div className={styles['my-website-container']}>
         {isLoading ? (
           <>
-            <div className={styles['skeleton-loading']}>
-              <div className={styles['skeleton-header']}></div>
-              <div className={styles['skeleton-iframe']}></div>
-            </div><iframe
+            <div className={styles['loading-spinner']}></div><iframe
               className={styles['webview-iframe']}
               src={process.env.NEXT_PUBLIC_WEBSITE}
               onLoad={handleLoad}
