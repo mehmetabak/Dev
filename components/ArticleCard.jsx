@@ -12,7 +12,7 @@ const ArticleCard = ({ article }) => {
       rel="noopener noreferrer"
       className={styles.container}
     >
-      <Image
+      <img
         src={article.cover_image}
         alt={article.title}
         width={300}
