@@ -24,17 +24,18 @@ const ArticleCard = ({ article }) => {
       </div>
       <div className={styles.stats}>
         <div className={styles.stat}>
-          <EyeIcon className={styles.icon} /> {article.page_views_count}
+          <EyeIcon className={styles.icon} /> {article.page_views_count || 0}
         </div>
         <div className={styles.stat}>
-          <HeartIcon className={styles.icon} /> {article.public_reactions_count}
+          <HeartIcon className={styles.icon} /> {article.public_reactions_count || 0}
         </div>
         <div className={styles.stat}>
-          <CommentIcon className={styles.icon} /> {article.comments_count}
+          <CommentIcon className={styles.icon} /> {article.comments_count || 0}
         </div>
       </div>
     </a>
   );
 };
+
 
 export default ArticleCard;
