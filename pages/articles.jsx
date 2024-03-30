@@ -25,7 +25,9 @@ const ArticlesPage = ({ articles }) => {
 };
 
 export async function getStaticProps() {
-  const data = fetch(`https://dev.to/api/articles?username=memoli0`).then((res) => res.json());
+  const response = await fetch(`https://dev.to/api/articles?username=memoli0`);
+  
+  const data = await response.json();
 
   return {
     props: { title: 'Articles', articles: data },
