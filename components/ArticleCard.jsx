@@ -12,12 +12,14 @@ const ArticleCard = ({ article }) => {
       rel="noopener noreferrer"
       className={styles.container}
     >
-      <img
-        src={article.cover_image}
-        alt={article.title}
-        width={300}
-        height={150}
-      />
+      {article.cover_image && (
+        <Image
+          src={article.cover_image}
+          alt={article.title}
+          width={300}
+          height={150}
+        />
+      )}
       <div className={styles.content}>
         <h3 className={styles.title}>{article.title}</h3>
         <p>{article.description}</p>
@@ -36,6 +38,5 @@ const ArticleCard = ({ article }) => {
     </a>
   );
 };
-
 
 export default ArticleCard;
