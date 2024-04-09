@@ -13,6 +13,45 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
 
 ![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
 
+## Table of Contents
+- [How Can You Use It](#how-can-you-use-it)
+- [Features Roadmap for 2024](#features-roadmap-for-2024)
+- [Star History](#star-history)
+- [License](#license)
+
+## How Can You Use It?
+
+### Environment Variables
+
+For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
+
+### Running Development Server
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+All VSCode related components can be found in the `components` folder. To change the content of the portfolio, check out the `pages` folder. To add or remove pages, modify `components/Sidebar.jsx` and `components/Tabsbar.jsx`.
+
+### Next.js Resources
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
+
+### Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 ## Features Roadmap for 2024
 
 - [ ] Themes and customizations
@@ -28,36 +67,19 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
 
 For other features and themes suggestions, please open an issue.
 
-## Environment Variables
+## Star History
 
-For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
+<a href="https://star-history.com/#memoli0/Dev&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=memoli0/Dev&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=memoli0/Dev&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=memoli0/Dev&type=Date" />
+ </picture>
+</a>
 
-## Running Development Server
+## License
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This project is under the MIT License. Refer to the [LICENSE](LICENSE) file for detailed information.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-All VSCode related components can be found in the `components` folder. To change the content of the portfolio, check out the `pages` folder. To add or remove pages, modify `components/Sidebar.jsx` and `components/Tabsbar.jsx`.
-
-## Next.js Resources
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-### Note:
+### A Little Note:
 This project is an enhanced and improved version of the [vscode-portfolio](https://github.com/itsnitinr/vscode-portfolio) .
