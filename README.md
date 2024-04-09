@@ -17,6 +17,7 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
 - [How Can You Use It](#how-can-you-use-it)
 - [Features Roadmap for 2024](#features-roadmap-for-2024)
 - [Star History](#star-history)
+- [Contributors](#contributors)
 - [License](#license)
 
 ## How Can You Use It?
@@ -76,6 +77,17 @@ For other features and themes suggestions, please open an issue.
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=memoli0/Dev&type=Date" />
  </picture>
 </a>
+
+## Contributors
+Contributions to this project are welcome from anyone who reads the [Code of Conduct](CODE_OF_CONDUCT.md) and follows its guidelines. Your contributions can take the form of code submissions, bug fixes, documentation improvements, or any other valuable enhancements.
+
+Current contributors to this project include:
+- [Mehmet Abak](https://github.com/memoli0)
+- [Nitin Ranganath](https://github.com/itsnitinr)
+
+We appreciate their efforts and contributions to making this project successful!
+
+**Note: This project is an enhanced and improved version of the [vscode-portfolio](https://github.com/itsnitinr/vscode-portfolio).**
 
 ## License
 
