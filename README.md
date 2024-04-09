@@ -89,7 +89,7 @@ Current contributors to this project include:
 
 We appreciate their efforts and contributions to making this project successful!
 
-**Note: This project is an enhanced and improved version of the [vscode-portfolio](https://github.com/itsnitinr/vscode-portfolio).**
+**Note: This project is an enhanced and improved version of the [vscode-portfolio](https://github.com/itsnitinr/vscode-portfolio). Contributors to that project were also added for this reason**
 
 ## License
 
