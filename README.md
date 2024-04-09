@@ -21,10 +21,10 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
   - [x] Dracula
   - [x] Ayu
   - [x] Nord
+- [x] Fixed image loading bug in blog page
+- [x] New "myWebsite.png" (BLOG) page
 - [ ] Interactive custom terminal
 - [ ] New web control button functions
-- [ ] New animations and svg logos
-- [x] New "myWebsite.png" page
 
 For other features and themes suggestions, please open an issue.
 
