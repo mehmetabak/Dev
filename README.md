@@ -1,17 +1,18 @@
 <div align=center>
   
-# VSCode-Portfolio(Dev)
-  
-</div> 
-<div align=center>
-  
-[Open in Visual Studio Code](https://open.vscode.dev/memoli0/Dev)
-  
-</div> 
+  # VSCode-Portfolio(Dev)
+
+</div>
+
+![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
 
 <p align="center"><strong>🔮 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.</strong></p>
 
-![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
+<div align=center>
+  
+  [🖥️ Open in Visual Studio Code](https://open.vscode.dev/memoli0/Dev)
+
+</div>
 
 ## Table of Contents
 - [How Can You Use It](#how-can-you-use-it)
