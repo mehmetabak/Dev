@@ -9,7 +9,7 @@
   
 </div> 
 
-A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
+<p align="center"><strong>🔮 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.</strong></p>
 
 ![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
 
