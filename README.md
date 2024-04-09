@@ -5,7 +5,7 @@
 </div> 
 <div align=center>
   
-[Open is Visual Studio Code](https://open.vscode.dev/memoli0/Dev)
+[Open in Visual Studio Code](https://open.vscode.dev/memoli0/Dev)
   
 </div> 
 
