@@ -84,6 +84,8 @@ Contributions to this project are welcome from anyone who reads the [Code of Con
 Current contributors to this project include:
 - [Mehmet Abak](https://github.com/memoli0)
 - [Nitin Ranganath](https://github.com/itsnitinr)
+- [Praveen Saraogi](https://github.com/saraogipraveen)
+- [Sohail Jafri](https://github.com/thesohailjafri)
 
 We appreciate their efforts and contributions to making this project successful!
 
