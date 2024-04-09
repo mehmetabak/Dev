@@ -92,6 +92,3 @@ We appreciate their efforts and contributions to making this project successful!
 ## License
 
 This project is under the MIT License. Refer to the [LICENSE](LICENSE) file for detailed information.
-
-### A Little Note:
-This project is an enhanced and improved version of the [vscode-portfolio](https://github.com/itsnitinr/vscode-portfolio) .
