@@ -32,5 +32,14 @@
     "tags": ["Javascript", "CSS", "HTML"],
     "source_code": "https://github.com/memoli0/Translate",
     "demo": "https://microsoftedge.microsoft.com/addons/detail/jobmbianmoinpmooapggpmajdgckokjl"
+  },
+  {
+    "id": 5,
+    "name": "arasTiR/nAI",
+    "image": "https://i.imgur.com/aQU5XPn.png",
+    "description": "An application where open source fine-tuned artificial intelligence models are collected and that can be tested.",
+    "tags": ["Javascript", "Vue.js", "AI"],
+    "source_code": "https://github.com/memoli0/project-ai",
+    "demo": "https://na1.vercel.app"
   }
 ]
