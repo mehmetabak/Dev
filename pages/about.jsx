@@ -15,7 +15,7 @@ const AboutPage = () => {
       <h3>Explore, Learn, Share 🚀</h3>
       <h3>&nbsp;</h3>
       <p align="justify">
-        <h4>  As a software developer, I'm always on the lookout for new technologies and eager to expand my knowledge. I document my journey, insights, and experiences on my blog <a href="https://m0s.vercel.app" target="_blank">m0s</a>. Dive into my portfolio at <Link href="/projects">mehmetabak.is-a.dev</Link> to discover some of my proudest projects and achievements.</h4>
+        <h4>  As a software developer, I'm always on the lookout for new technologies and eager to expand my knowledge. I document my journey, insights, and experiences on my blog <Link href="/blog">m0s.vercel.app</Link>. Dive into my portfolio at <Link href="/projects">mehmetabak.is-a.dev</Link> to discover some of my proudest projects and achievements.</h4>
       </p>
     </>
   );
