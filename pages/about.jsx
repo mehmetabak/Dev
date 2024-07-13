@@ -9,7 +9,7 @@ const AboutPage = () => {
         <h4>👨‍💻 Skilled in Java & Kotlin for Native Android Development</h4>
         <h4>🤖 Focused on Data Science & Machine Learning</h4>         
         <h4>📚 Constantly expanding my knowledge and exploring new technologies</h4>        
-        <h4>📫 Feel free to reach out to me at mehmetnurabak0@gmail.com</h4>
+        <h4>📫 Feel free to reach out to me at <a href="mailto:mehmetnurabak0@gmail.com" target="_blank">mehmetnurabak0@gmail.com</a></h4>
       </p>
       <h3>&nbsp;</h3>
       <h3>Explore, Learn, Share 🚀</h3>
