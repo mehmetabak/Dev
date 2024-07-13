@@ -5,6 +5,7 @@
   background: var(--article-bg);
   border-radius: 5px;
   padding: 1rem;
+  overflow: hidden;
 }
 
 .card:hover {
@@ -13,11 +14,13 @@
 
 .card p {
   margin-bottom: 1.25rem;
+  word-wrap: break-word;
 }
 
 .title {
   color: var(--accent-color);
   margin-bottom: 1rem;
+  word-wrap: break-word;
 }
 
 .stats {
