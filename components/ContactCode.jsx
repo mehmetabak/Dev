@@ -13,7 +13,7 @@ const contactItems = [
   },
   {
     social: 'github',
-    link: 'memoli0',
+    link: 'mehmetabak',
     href: 'https://github.com/mehmetabak',
   },
   {
