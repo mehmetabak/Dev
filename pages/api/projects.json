@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "arasTiR/AKR(AKT) for Telegram",
+    "name": "Java-Telegram_arasTiR_Old_Bot",
     "image": "https://i.imgur.com/Hl46nTs.png",
     "description": "arasTiR/AKT's Telegram app for compatibility with all devices.",
     "tags": ["Java", "Maven", "Telegram-API", "Heroku"],
@@ -41,5 +41,14 @@
     "tags": ["Javascript", "Vue.js", "AI"],
     "source_code": "https://github.com/mehmetabak/project-ai",
     "demo": "https://na1.vercel.app"
+  },
+  {
+    "id": 6,
+    "name": "Telegram-JS-Bot",
+    "image": "https://i.imgur.com/Hl46nTs.png",
+    "description": "This project is a Telegram bot that answers questions about me or my projects, providing its complete source code.",
+    "tags": ["Javascript", "AWS", "Telegram-API"],
+    "source_code": "https://github.com/mehmetabak/Telegram-JS-Bot",
+    "demo": "https://t.me/PDF_Researcher_bot"
   }
 ]
