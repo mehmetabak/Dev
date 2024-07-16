@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "arasTiR/AKR(AKT)",
+    "image": "https://i.imgur.com/Hl46nTs.png",
+    "description": "arasTiR; It is an advanced survey generator and answerer(You can answer the created surveys, quizzes etc.). It's made for local schools.",
+    "tags": ["Java", "Javascript", "Firebase", "ASPT", "Android-Android Studio"],
+    "source_code": "https://github.com/memoli0/arasTiR-AKR",
+    "demo": "https://galaxystore.samsung.com/detail/com.arasTiR.AnKeteR"
+  },
+  {
+    "id": 2,
+    "name": "arasTiR/AKR(AKT) for Telegram",
+    "image": "https://i.imgur.com/Hl46nTs.png",
+    "description": "arasTiR/AKT's Telegram app for compatibility with all devices.",
+    "tags": ["Java", "Maven", "Telegram-API", "Heroku"],
+    "source_code": "https://github.com/memoli0/arastir-telegram-001"
+  },
+  {
+    "id": 3,
+    "name": "ASPF-->ASPFT",
+    "image": "https://i.imgur.com/w5Wi98G.png",
+    "description": "ASPFT; is a project that is the developed and translated version of https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo.",
+    "tags": ["Java", "GSON"],
+    "source_code": "https://github.com/memoli0/TinyDB--Android-Shared-Preferences-Turbo-Turkce"
+  },
+  {
+    "id": 4,
+    "name": "arasTiR/Translate",
+    "image": "https://i.imgur.com/pXU4g7Y.png",
+    "description": "A language translator website and extension from arasTiR.",
+    "tags": ["Javascript", "CSS", "HTML"],
+    "source_code": "https://github.com/memoli0/Translate",
+    "demo": "https://microsoftedge.microsoft.com/addons/detail/jobmbianmoinpmooapggpmajdgckokjl"
+  },
+  {
+    "id": 5,
+    "name": "arasTiR/nAI",
+    "image": "https://i.imgur.com/hZ8E8Oz.png",
+    "description": "An application where open source fine-tuned artificial intelligence models are collected and that can be tested.",
+    "tags": ["Javascript", "Vue.js", "AI"],
+    "source_code": "https://github.com/memoli0/project-ai",
+    "demo": "https://na1.vercel.app"
+  }
+]
