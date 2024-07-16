@@ -10,7 +10,7 @@
 
 <div align=center>
   
-  [🖥️ Open in Visual Studio Code](https://open.vscode.dev/memoli0/Dev)
+  [🖥️ Open in Visual Studio Code](https://open.vscode.dev/mehmetabak/Dev)
 
 </div>
 
@@ -72,11 +72,11 @@ For other features and themes suggestions, please open an issue.
 
 ## Star History
 
-<a href="https://star-history.com/#memoli0/Dev&Date">
+<a href="https://star-history.com/#mehmetabak/Dev&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=memoli0/Dev&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=memoli0/Dev&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=memoli0/Dev&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mehmetabak/Dev&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mehmetabak/Dev&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mehmetabak/Dev&type=Date" />
  </picture>
 </a>
 
@@ -84,7 +84,7 @@ For other features and themes suggestions, please open an issue.
 Contributions to this project are welcome from anyone who reads the [Code of Conduct](CODE_OF_CONDUCT.md) and follows its guidelines. Your contributions can take the form of code submissions, bug fixes, documentation improvements, or any other valuable enhancements.
 
 Current contributors to this project include:
-- [Mehmet Abak](https://github.com/memoli0)
+- [Mehmet Abak](https://github.com/mehmetabak)
 - [Nitin Ranganath](https://github.com/itsnitinr)
 - [Praveen Saraogi](https://github.com/saraogipraveen)
 - [Sohail Jafri](https://github.com/thesohailjafri)
