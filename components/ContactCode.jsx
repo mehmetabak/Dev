@@ -14,7 +14,7 @@ const contactItems = [
   {
     social: 'github',
     link: 'memoli0',
-    href: 'https://github.com/memoli0',
+    href: 'https://github.com/mehmetabak',
   },
   {
     social: 'linkedin',
