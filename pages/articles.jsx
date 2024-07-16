@@ -7,7 +7,7 @@ const ArticlesPage = ({ articles }) => {
       <h3>
         Recent Posts from{' '}
         <a
-          href="https://dev.to/memoli0"
+          href="https://dev.to/mehmetabak"
           target="_blank"
           rel="noopener"
           className={styles.underline}
@@ -25,7 +25,7 @@ const ArticlesPage = ({ articles }) => {
 };
 
 export async function getStaticProps() {
-  const response = await fetch(`https://dev.to/api/articles?username=memoli0`);
+  const response = await fetch(`https://dev.to/api/articles?username=mehmetabak`);
   
   const data = await response.json();
 
