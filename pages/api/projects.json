@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "Java-Telegram_arasTiR_Old_Bot",
+    "name": "Java-Telegram_Bot",
     "image": "https://i.imgur.com/Hl46nTs.png",
     "description": "arasTiR/AKT's Telegram app for compatibility with all devices.",
     "tags": ["Java", "Maven", "Telegram-API", "Heroku"],
