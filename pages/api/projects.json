@@ -38,7 +38,7 @@
     "name": "arasTiR/nAI",
     "image": "https://i.imgur.com/hZ8E8Oz.png",
     "description": "An application where open source fine-tuned artificial intelligence models are collected and that can be tested.",
-    "tags": ["Javascript", "Vue.js", "AI"],
+    "tags": ["Javascript", "Vite.js", "AI"],
     "source_code": "https://github.com/mehmetabak/project-ai",
     "demo": "https://na1.vercel.app"
   },
