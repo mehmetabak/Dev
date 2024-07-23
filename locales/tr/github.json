@@ -1,6 +1,6 @@
 {
-    "repos": " depolar",
-    "followers": " takipçiler",
+    "repos": " repo",
+    "followers": " takipçi",
     "months": [
         "Oca",
         "Şub",
@@ -16,7 +16,7 @@
         "Ara"
     ],
     "weekdays": ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"],
-    "totalCount": "{{count}} katkı {{year}} yılında",
+    "totalCount": "{{year}} yılındaki toplam katkım: {{count}}",
     "legend": {
         "less": "Daha Az",
         "more": "Daha Fazla"
