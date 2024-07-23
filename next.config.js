@@ -6,7 +6,6 @@ module.exports = nextTranslate({
     defaultLocale: 'en', 
     localeDetection: true, 
   },
-  loadLocalesFrom: 'locales',
   images: {
     domains: [
       'res.cloudinary.com',
