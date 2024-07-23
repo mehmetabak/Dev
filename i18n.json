@@ -1,0 +1,15 @@
+{
+    "locales": ["en", "tr"],
+    "defaultLocale": "en",
+    "pages": {
+      "*": ["common"],
+      "/": ["home"],
+      "/settings": ["settings"],
+      "/about": ["about"],
+      "/contact": ["contact"],
+      "/projects": ["projects"],
+      "/github": ["github"],
+      "/blog": ["blog"],
+      "/articles": ["articles"]
+    }
+  }

@@ -1,10 +1,14 @@
+import useTranslation from 'next-translate/useTranslation';
+import SwitchLanguage from '../components/SwitchLanguage';
 import ThemeInfo from '../components/ThemeInfo';
 import styles from '../styles/SettingsPage.module.css';
 
 const SettingsPage = () => {
+  const { t } = useTranslation('settings');
+
   return (
     <>
-      <h2>Manage Themes</h2>
+      <h2>{t('manage_themes')}</h2>
       <div className={styles.container}>
         <ThemeInfo
           name="GitHub Dark"
@@ -48,6 +52,11 @@ const SettingsPage = () => {
           theme="night-owl"
           description="A VS Code theme for the night owls out there."
         />
+      </div>
+
+      <h2>{t('language')}</h2>
+      <div className={styles.language}>
+        <SwitchLanguage />
       </div>
     </>
   );

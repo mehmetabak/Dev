@@ -1,11 +1,14 @@
+import useTranslation from 'next-translate/useTranslation';
 import ArticleCard from '../components/ArticleCard';
 import styles from '../styles/ArticlesPage.module.css';
 
 const ArticlesPage = ({ articles }) => {
+  const { t } = useTranslation('articles');
+
   return (
     <>
       <h3>
-        Recent Posts from{' '}
+        {t('title')}
         <a
           href="https://dev.to/mehmetabak"
           target="_blank"

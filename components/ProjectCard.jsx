@@ -1,7 +1,10 @@
 import Image from 'next/image';
+import useTranslation from 'next-translate/useTranslation';
 import styles from '../styles/ProjectCard.module.css';
 
 const ProjectCard = ({ project }) => {
+  const { t } = useTranslation('projects'); 
+
   return (
     <div className={styles.card}>
       <Image src={project.image} height={300} width={600} alt={project.name} />
@@ -23,7 +26,7 @@ const ProjectCard = ({ project }) => {
               rel="noopener noreferrer"
               className={styles.underline}
             >
-              Source Code
+              {t('source_code')}
             </a>
           )}
           {project.demo && (
@@ -33,7 +36,7 @@ const ProjectCard = ({ project }) => {
               rel="noopener noreferrer"
               className={styles.underline}
             >
-              Live Demo
+              {t('live_demo')}
             </a>
           )}
         </div>

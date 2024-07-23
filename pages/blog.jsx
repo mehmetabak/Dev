@@ -1,9 +1,9 @@
-import ProjectCard from '../components/ProjectCard';
-import { getProjects } from './api/projects';
+import useTranslation from 'next-translate/useTranslation';
 import styles from '../styles/Blog.module.css';
 import React, { useState } from 'react';
 
 const BlogPage = () => {
+  const { t } = useTranslation('articles');
 
   const [isLoading, setIsLoading] = useState(true);
 

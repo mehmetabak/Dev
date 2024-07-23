@@ -1,11 +1,14 @@
+import useTranslation from 'next-translate/useTranslation';
 import ProjectCard from '../components/ProjectCard';
 import { getProjects } from './api/projects';
 import styles from '../styles/ProjectsPage.module.css';
 
 const ProjectsPage = ({ projects }) => {
+  const { t } = useTranslation('projects');
+
   return (
     <>
-      <h3>Stuff I've Built So Far</h3>
+      <h3>{t('title')}</h3>
       <div className={styles.container}>
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />

@@ -1,0 +1,11 @@
+{
+    "title": "Sosyal Medya Üzerinden Ulaşın",
+    "form": "Ya da Formu Doldurun",
+    "name": "İsim",
+    "email": "E-posta",
+    "subject": "Konu",
+    "message": "Mesaj",
+    "submit": "Gönder",
+    "submitted": "Yanıtınız alındı!",
+    "submitted-error": "Bir hata oluştu. Lütfen bir süre sonra tekrar deneyin."
+}

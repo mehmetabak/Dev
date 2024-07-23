@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
+import I18nProvider from 'next-translate/I18nProvider';
+import useTranslation from 'next-translate/useTranslation';
 import Layout from "../components/Layout";
 import Head from "../components/Head";
 import "../styles/globals.css";
 import "../styles/themes.css";
 
 function MyApp({ Component, pageProps }) {
+  const { lang } = useTranslation();
 
   useEffect(() => {
     if (localStorage.getItem("theme")) {
@@ -18,7 +21,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head title={`Mehmet Abak | ${pageProps.title}`} />
-      <Component {...pageProps} />
+      <I18nProvider lang={lang}>
+        <Component {...pageProps} />
+      </I18nProvider>
     </Layout>
   );
 }

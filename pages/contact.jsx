@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import useTranslation from 'next-translate/useTranslation';
 import ContactCode from '../components/ContactCode';
 import styles from '../styles/ContactPage.module.css';
 
 const ContactPage = () => {
+  const { t } = useTranslation('contact');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
@@ -11,34 +13,33 @@ const ContactPage = () => {
 
   const submitForm = async (e) => {
     e.preventDefault();
-    console.log(process.env.NEXT_PUBLIC_API_URL);
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
       method: 'POST',
       body: JSON.stringify({ name, email, subject, message }),
     });
     if (res.ok) {
-      alert('Your response has been received!');
+      alert(t('submitted'));
       setName('');
       setEmail('');
       setSubject('');
       setMessage('');
     } else {
-      alert('There was an error. Please try again in a while.');
+      alert(t('submitted-error'));
     }
   };
 
   return (
     <div className={styles.container}>
       <div>
-        <h3 className={styles.heading}>Reach Out Via Socials</h3>
+        <h3 className={styles.heading}>{t('title')}</h3>
         <ContactCode />
       </div>
       <div>
-        <h3 className={styles.heading}>Or Fill Out This Form</h3>
+        <h3 className={styles.heading}>{t('form')}</h3>
         <form className={styles.form} onSubmit={submitForm}>
           <div className={styles.flex}>
             <div>
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">{t('name')}</label>
               <input
                 type="text"
                 name="name"
@@ -49,7 +50,7 @@ const ContactPage = () => {
               />
             </div>
             <div>
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">{t('email')}</label>
               <input
                 type="email"
                 name="email"
@@ -61,7 +62,7 @@ const ContactPage = () => {
             </div>
           </div>
           <div>
-            <label htmlFor="name">Subject</label>
+            <label htmlFor="name">{t('subject')}</label>
             <input
               type="text"
               name="subject"
@@ -72,7 +73,7 @@ const ContactPage = () => {
             />
           </div>
           <div>
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">{t('message')}</label>
             <textarea
               name="message"
               id="message"
@@ -82,7 +83,7 @@ const ContactPage = () => {
               required
             ></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit">{t('submit')}</button>
         </form>
       </div>
     </div>

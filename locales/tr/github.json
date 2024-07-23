@@ -1,0 +1,24 @@
+{
+    "repos": " depolar",
+    "followers": " takipçiler",
+    "months": [
+        "Oca",
+        "Şub",
+        "Mar",
+        "Nis",
+        "May",
+        "Haz",
+        "Tem",
+        "Ağu",
+        "Eyl",
+        "Eki",
+        "Kas",
+        "Ara"
+    ],
+    "weekdays": ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"],
+    "totalCount": "{{count}} katkı {{year}} yılında",
+    "legend": {
+        "less": "Daha Az",
+        "more": "Daha Fazla"
+    }
+}
