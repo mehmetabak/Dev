@@ -65,6 +65,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [x] Fix image loading bug in blog page
 - [x] Fix the text overflow bug
 - [x] New "myWebsite.png" (BLOG) page
+- [x] Multi-language support
 - [ ] Interactive custom terminal
 - [ ] New web control button functions
 
