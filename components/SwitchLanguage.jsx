@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import useTranslation from 'next-translate/useTranslation';
-import i18n from 'next-translate/i18n';
 import i18nConfig from '../i18n.json';
 import styles from '../styles/SwitchLanguage.module.css';
 
