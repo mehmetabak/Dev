@@ -3,13 +3,13 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'arastir.super.site',
-    href: 'https://arastir.super.site',
+    link: 'm0s.space',
+    href: 'https://m0s.space',
   },
   {
     social: 'email',
-    link: 'mehmetnurabak0@gmail.com',
-    href: 'mailto:mehmetnurabak0@gmail.com',
+    link: 'mehmetabak@proton.me',
+    href: 'mailto:mehmetabak@proton.me',
   },
   {
     social: 'github',
