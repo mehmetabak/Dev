@@ -6,16 +6,16 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Mehmet Abak is an full stack web developer building websites and applications you'd love to use"
+        content="Mehmet Abak || Machine Learning engineer and Android Developer"
       />
       <meta
         name="keywords"
-        content="Mehmet Abak, Mehmetnur Abak, Mehmetnur, Mehmet, Abak, web developer portfolio, Mehmet web developer, Mehmet developer, Mehmet Abak portfolio, vscode-portfolio"
+        content="Mehmet Abak, machine learning, Mehmet Abak's portfolio, Mehmet, Abak, web developer portfolio, Mehmet android developer, Mehmet developer, Mehmet Abak portfolio, vscode-portfolio"
       />
       <meta property="og:title" content="Mehmet Abak's Portfolio" />
       <meta
         property="og:description"
-        content="A full-stack developer building websites that you'd like to use."
+        content="A Machine Learning engineer and Android Developer."
       />
       <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
       <meta property="og:url" content="https://mehmetabak.vercel.app" />
