@@ -23,8 +23,8 @@ const contactItems = [
   },
   {
     social: 'twitter',
-    link: 'Mehmetn45363159',
-    href: 'https://twitter.com/Mehmetn45363159',
+    link: 'mehmet_m0s',
+    href: 'https://x.com/mehmet_m0s',
   },
 ];
 
