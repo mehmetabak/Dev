@@ -19,7 +19,7 @@ const contactItems = [
   {
     social: 'linkedin',
     link: 'mehmet-a-12a716226',
-    href: 'https://www.linkedin.com/in/mehmet-a-12a716226',
+    href: 'https://www.linkedin.com/in/mehmet-abak',
   },
   {
     social: 'twitter',
