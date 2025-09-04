@@ -18,7 +18,7 @@ const contactItems = [
   },
   {
     social: 'medium',
-    link: 'mehmetabak',
+    link: 'abakmehmet',
     href: 'https://abakmehmet.medium.com/',
   },
   {
