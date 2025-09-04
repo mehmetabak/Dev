@@ -17,9 +17,9 @@ const contactItems = [
     href: 'https://github.com/mehmetabak',
   },
   {
-    social: 'linkedin',
-    link: 'mehmet-a-12a716226',
-    href: 'https://www.linkedin.com/in/mehmet-abak',
+    social: 'medium',
+    link: 'mehmetabak',
+    href: 'https://abakmehmet.medium.com/',
   },
   {
     social: 'twitter',
